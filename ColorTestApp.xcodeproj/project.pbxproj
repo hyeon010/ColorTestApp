@@ -14,6 +14,7 @@
 		DF5C629F2C3FF5E00026ED08 /* ColorTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C629E2C3FF5E00026ED08 /* ColorTestAppTests.swift */; };
 		DF5C62A92C3FF5E00026ED08 /* ColorTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C62A82C3FF5E00026ED08 /* ColorTestAppUITests.swift */; };
 		DF5C62AB2C3FF5E00026ED08 /* ColorTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C62AA2C3FF5E00026ED08 /* ColorTestAppUITestsLaunchTests.swift */; };
+		DF5C62B82C3FF8930026ED08 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C62B72C3FF8930026ED08 /* ColorSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DF5C62A42C3FF5E00026ED08 /* ColorTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5C62A82C3FF5E00026ED08 /* ColorTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTestAppUITests.swift; sourceTree = "<group>"; };
 		DF5C62AA2C3FF5E00026ED08 /* ColorTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF5C62B72C3FF8930026ED08 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				DF5C628F2C3FF5DB0026ED08 /* ContentView.swift */,
 				DF5C62912C3FF5E00026ED08 /* Assets.xcassets */,
 				DF5C62932C3FF5E00026ED08 /* Preview Content */,
+				DF5C62B72C3FF8930026ED08 /* ColorSlider.swift */,
 			);
 			path = ColorTestApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5C62902C3FF5DB0026ED08 /* ContentView.swift in Sources */,
+				DF5C62B82C3FF8930026ED08 /* ColorSlider.swift in Sources */,
 				DF5C628E2C3FF5DB0026ED08 /* ColorTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
